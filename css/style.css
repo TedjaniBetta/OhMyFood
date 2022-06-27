@@ -5,7 +5,6 @@
     font-family: 'Raleway';
   }
 
-@media screen and (min-width: 280px){
     .container_1{
       
     }
@@ -41,8 +40,9 @@
     }
 
     .p_localisation{
-        font-size: 46px;
+        font-size: 40px;
         font-family: sans-serif;
+        font-weight: 700;
     }
 
     .bloc_p1, .bloc_p2, .bloc_p3 {
@@ -80,6 +80,7 @@
     }
 
     .lineaire-simple{
+        border: none;
         color: white;
         background: linear-gradient(#FF79DA, #ad7ce7);
         border-radius: 80px;
@@ -88,6 +89,7 @@
         margin-top: 50px;
         text-align: center;
         padding: 40px;
+        box-shadow: 0 0 16px grey;
     }
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
@@ -125,9 +127,13 @@
         background-color: #F2F2F2;
         margin-bottom: 60px;
         height: 150px;
-        box-shadow: 1px 1px 10px grey;
     }
 
+    .bloc_nav_1:visited{
+        color: #088c6c;
+        background-color: #FF79DA;
+
+    }
 
     .numerotation{
         font-size: xx-large;
@@ -148,12 +154,14 @@
         padding: 20px 25px 20px 5px;
         color: #7e7e7e;
         margin: 0 20px 0 0;
-        font-size: 56px;
+        font-size: 45px;
     }
 
     .p_1, .p_2, .p_3{
-        font-size: 50px;
+        font-size: 35px;
+        font-weight: 700;
         font-family: sans-serif;
+        margin-left: 20px;
     }
 
 
@@ -187,6 +195,21 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 30px;
+        position: relative;
+    }
+
+    .nouveau_img, .nouveau_img_2, .nouveau_img_3, .nouveau_img_4{
+        background-color: #99E2D0;
+        padding: 20px 30px;
+        color: #088c6c;
+        font-weight: 600;
+        border-radius: 6px;
+        position: absolute;
+        margin-left: 65%;
+        font-size: 35px;
+        font-family: sans-serif;
+        top: 30px;
+        right: 45px;
     }
 
     .bloc_img_4{
@@ -203,6 +226,7 @@
 
     .mini_bloc, .mini_bloc_2, .mini_bloc_3, .mini_bloc_4{
         width: 85%;
+        padding: 15px;
     }
 
     .p_img, .p_img_2, .p_img_3, .p_img_4{
@@ -219,10 +243,16 @@
         margin-bottom: 10px;
     }
 
+    .like{
+        position: relative;
+    }
+
     .heart{
         font-size: 60px;
         display: flex;
         align-items: center;
+        position: absolute;
+        top: 60px;
     }
 
     /*******************************************************/
@@ -277,7 +307,7 @@
     .p_footer{
         font-size: 40px;
         font-family: "Roboto", sans-serif;
-        font-weight: bold;
+        
         text-decoration: none;
       
     }
@@ -298,4 +328,3 @@
     ul {
         list-style-type: none;
       }
-}
