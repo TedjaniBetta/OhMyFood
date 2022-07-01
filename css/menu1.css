@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bloc_header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .arrow {
+    width: 10%;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .bloc_logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .logo{
+    width: 45%;
+    display: flex;
+    margin-left: 50px;
+  }
+
+  /*--------------------------------------------------------*/
+  /*--------------------------------------------------------*/
+
+  .bloc_img{
+    width: 100%;
+  }
+
+  .images{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .bloc_menu{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px gray;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    align-items: center;
+  }
+
+  .titre_menu{
+    width: 80%;
+    padding: 20px;
+    font-family: "Shrikhand" , cursive;
+  }
+
+    .like {
+        position: relative;
+    }   
+  .heart_vide{
+        font-size: 25px;
+  }
+
+  .heart_plein{
+        font-size: 25px;
+        background: linear-gradient(#9356DC, #FF79DA);
+  }
