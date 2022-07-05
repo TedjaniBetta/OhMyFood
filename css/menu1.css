@@ -37,9 +37,10 @@
 
   .bloc_img{
     width: 100%;
+    margin: 0 auto;
   }
 
-  .images{
+  .bloc_img img{
     width: 100%;
     object-fit: cover;
   }
@@ -90,6 +91,7 @@
 
   .titre_entre{
     margin-left: 20px;
+    margin-top: 10px;
   }
 
   h2{
@@ -107,28 +109,35 @@
     background-color: #99E2D0;
   }
 
-  .entre_1{
+  .menu{
     border: 2px white;
     background-color: white;
     width: 95%;
     margin: 0 auto;
     border-radius: 10px;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
   }
 
-  .info_entre_1{
+  .menu_detaille_nom{
     font-family: sans-serif;
     font-weight: bold;
     padding: 10px 0 0 10px;
+    width: 85%;
+
   }
 
-  .info_entre1{
+  .menu_detaille_nom p{
     font-family: 'Raleway';
     font-size: 15px;
-    padding: 5px 0 0 10px;
     font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
 
-  .prix{
-
+  .menu_detaille_prix{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
   }
