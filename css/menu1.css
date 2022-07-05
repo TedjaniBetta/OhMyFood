@@ -82,16 +82,20 @@
 /*---------------------------------------------------------------*/
 /*---------------------------------------------------------------*/
 
-  .entree{
+  .entree, .plat, .dessert{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  .titre_entre{
+  .titre_entre, .titre_plat, .titre_dessert{
     margin-left: 20px;
     margin-top: 10px;
+  }
+
+  .titre_plat h2, .titre_dessert h2{
+    margin-top: 30px;
   }
 
   h2{
@@ -118,6 +122,7 @@
     margin-top: 15px;
     display: flex;
     align-items: center;
+    box-shadow: 5px 5px 10px #e7e7e7;
   }
 
   .menu_detaille_nom{
@@ -141,3 +146,98 @@
     font-weight: bold;
     margin-top: 20px;
   }
+
+  .button_command{
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 50px 0 50px 0;
+  }
+
+  .button_command button{
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px 15px 40px;
+    font-size: 15px;
+    color: white;
+    box-shadow: 0px 0px 16px grey;
+  }
+
+
+
+
+  /*------------------------------------------------------------*/
+  /*------------------------------------------------------------*/
+  /*------------------------------------------------------------*/
+
+  .container_2{
+
+  }
+
+  .bloc_footer{
+      background-color: #353535;
+      color: white;
+  }
+
+  .img_footer{
+     
+  }
+
+  .titre_footer{
+      width: 90%;
+      font-size: 25px;
+      font-family: sans-serif;
+      font-style: italic;
+      margin: 0 auto;
+      padding-top: 5%;
+  }
+
+  .bloc_footer_1{
+      margin-top: 5%;
+      text-decoration: none;
+      padding-bottom: 50px;
+  }
+
+  .mini_bloc_footer_1, .mini_bloc_footer_2{
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .mini_bloc_footer_2{
+      margin-top: 15px;
+  }
+
+  .icon_footer{
+      font-size: 15px;
+      margin-right: 10px;
+  }
+
+  .p_footer, .p_mention, .mail{
+      color: white;
+      text-decoration: none;
+  }
+  .p_footer{
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+      
+      text-decoration: none;
+    
+  }
+
+  .mention_footer, .contact_footer{
+      font-size: 15px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 15px;
+  }
+
+  .contact_footer{
+
+  }
+
+  ul {
+      list-style-type: none;
+    }
