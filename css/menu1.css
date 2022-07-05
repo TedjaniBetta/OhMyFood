@@ -14,6 +14,7 @@
     width: 10%;
     font-size: 20px;
     margin-left: 30px;
+    color: black;
   }
 
   .bloc_logo {
@@ -50,22 +51,84 @@
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     align-items: center;
+    background-color: #f2f2f2;
   }
 
   .titre_menu{
-    width: 80%;
+    width: 85%;
     padding: 20px;
     font-family: "Shrikhand" , cursive;
+    font-size: 28px;
   }
 
-    .like {
-        position: relative;
-    }   
+  .like {
+    position: relative;
+  }   
   .heart_vide{
-        font-size: 25px;
+    font-size: 25px;
+    position: absolute;
   }
 
   .heart_plein{
-        font-size: 25px;
-        background: linear-gradient(#9356DC, #FF79DA);
+    font-size: 25px;
+    background: linear-gradient(#9356DC, #FF79DA);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0%;
+  }
+
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+
+  .entree{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .titre_entre{
+    margin-left: 20px;
+  }
+
+  h2{
+    font-size: 15px;
+    font-family: 'Raleway';
+    margin-bottom: 3px;
+    font-weight: 500;
+  }
+
+  .bordure{
+    color: #99E2D0;
+    border: 1px solid;
+    width: 41px;
+    height: 3px;
+    background-color: #99E2D0;
+  }
+
+  .entre_1{
+    border: 2px white;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .info_entre_1{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+  }
+
+  .info_entre1{
+    font-family: 'Raleway';
+    font-size: 15px;
+    padding: 5px 0 0 10px;
+    font-weight: 500;
+  }
+
+  .prix{
+
   }
