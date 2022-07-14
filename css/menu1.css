@@ -38,6 +38,10 @@
 
   }
 
+  .bloc_logo a{
+
+  }
+
   .bloc_header{
     display: flex;
     flex-wrap: wrap;
@@ -58,12 +62,13 @@
     margin: 0 auto;
     margin-top: 20px;
     align-items: center;
+    justify-content: space-evenly;
   }
 
   .logo{
     width: 45%;
     display: flex;
-    margin-left: 50px;
+    margin-left: -45px;
   }
 
   /*--------------------------------------------------------*/
