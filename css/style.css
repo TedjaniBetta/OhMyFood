@@ -4,10 +4,94 @@
     padding: 0;
     font-family: 'Raleway';
   }
-      
-    
-  body .container_1 {
+
+   .loading_page{
+    animation: loading_page 1s ease forwards;
+    animation-duration: 800ms;
+  }
+
+  .loader {
+    position: fixed;
+    z-index: 1;
     width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-animation: loader 1s forwards;
+            animation: loader 1s forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+
+  @-webkit-keyframes loader {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  @keyframes loader {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  .loading_page {
+    width: 300px;
+    height: 300px;
+    border-top: #9356DC 5px solid;
+    border-right: #B286E6 5px solid;
+    border-bottom: #FF79DA 5px solid;
+    border-left: #FF86DE 5px solid;
+    border-radius: 50%;
+    -webkit-animation: rotation_loader 1.5s linear infinite;
+            animation: rotation_loader 1.5s linear infinite;
+  }
+
+  @-webkit-keyframes rotation_loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotation_loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading_page .loading_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-family: "Shrikhand", cursive;
+    font-size: 50px;
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    border: none;
+  }
+    
+  .container_1 {
+    width: 100%;
+    
   
     }
 
@@ -273,7 +357,7 @@
     .heart_plein:hover {
         animation: heart 1000ms ease forwards;
       }
-      
+
     @-webkit-keyframes heart {
         from {
           opacity: 0;

@@ -4,40 +4,6 @@
     padding: 0;
   }
 
-  @keyframes loading_page {
-    0% {
-      opacity: .1;
-    }
-
-    17% {
-      opacity: .3;
-    }
-
-    24% {
-      opacity: .5;
-    }
-
-    46% {
-      opacity: .7;
-    }
-
-    85% {
-      opacity: .9;
-    }
-
-    100% {
-      opacity: 1;
-    }
-
-  }
-
-
-
-  .page .loading_page{
-    animation: loading_page 1s ease forwards;
-
-  }
-
   .bloc_logo a{
 
   }
@@ -203,7 +169,7 @@
 
   .menu_detaille_nom p{
     font-family: 'Raleway';
-    font-size: 14px;
+    font-size: smaller;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -213,13 +179,14 @@
 
   .menu_detaille_nom h3 {
     white-space: nowrap;
+    font-size: initial;
   }
 
   .menu_detaille_prix{
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 20px;
-    width: 5%;
+    margin-right: 3px;
   }
 
   .menu_slide:hover {
