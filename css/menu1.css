@@ -62,6 +62,33 @@
     position: relative;
   }
 
+  .menu, .menu_detaille_nom, .menu_detaille_prix, .menu_slide{
+            animation: displayY ease;
+    -webkit-animation-delay: 1000ms ease;
+            animation-delay: 1000ms ease;
+  }
+
+  @-webkit-keyframes displayY{
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  @keyframes displayY {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
   .titre_menu{
     width: 85%;
     padding: 20px;
@@ -150,6 +177,7 @@
     border-radius: 10px;
     margin-top: 15px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 10px #e7e7e7;
     overflow: hidden;
@@ -163,10 +191,13 @@
     font-family: sans-serif;
     font-weight: bold;
     padding: 10px 0 0 10px;
-    width: 80%;
+    width: 100%;
 
   }
 
+  .menu_detaille_nom, .menu_detaille_nom h3, .menu_detaille_nom p {
+    overflow: hidden;
+  }  
   .menu_detaille_nom p{
     font-family: 'Raleway';
     font-size: smaller;
@@ -175,23 +206,26 @@
     margin-bottom: 10px;
     width: 100%;
     white-space: nowrap;
+    text-overflow: ellipsis;
   }
 
   .menu_detaille_nom h3 {
     white-space: nowrap;
     font-size: initial;
+    text-overflow: ellipsis;
   }
 
   .menu_detaille_prix{
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 20px;
-    margin-right: 3px;
+    padding-right: 15px;
   }
 
   .menu_slide:hover {
     transition: transform 800ms;
     animation: slide 1s ease;
+    margin-right: 0px;
   }
 
   .menu_slide {
@@ -199,12 +233,18 @@
     align-items: center;
     justify-content: center;
     background-color: #99E2D0;
-    width: 15%;
+    width: 60px;
     transition-duration: 800ms;
+    margin-right: -60px;
 }
 
+   .menu_slide:hover{
+    -webkit-animation: slide 800 ease;
+    animation: slide 800ms ease;
+    transition: transform 800ms;
+  }
   
-  .icone__slide:hover{
+  .menu_slide i:hover{
     transition: transform 800ms;
     transform: rotate(360deg);
   }
@@ -218,18 +258,18 @@
 
   @-webkit-keyframes slide {
     0% {
-      transform: translate(20px);
+      transform: translate(60px);
       opacity: 0;
     }
     100% {
-      transform: translate(0px);
+      transform: translate(60px);
       opacity: 1;
     }
   }
 
   @keyframes slide {
     0% {
-      transform: translate(20px);
+      transform: translate(60px);
       opacity: 0;
     }
 
