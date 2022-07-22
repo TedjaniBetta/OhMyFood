@@ -222,7 +222,7 @@
     padding-right: 15px;
   }
 
-  .menu_slide:hover {
+  .menu:hover .menu_slide {
     transition: transform 800ms;
     animation: slide 1s ease;
     margin-right: 0px;
@@ -238,13 +238,13 @@
     margin-right: -60px;
 }
 
-   .menu_slide:hover{
+   .menu_slide:hover {
     -webkit-animation: slide 800 ease;
     animation: slide 800ms ease;
     transition: transform 800ms;
   }
   
-  .menu_slide i:hover{
+  .menu:hover i {
     transition: transform 800ms;
     transform: rotate(360deg);
   }
