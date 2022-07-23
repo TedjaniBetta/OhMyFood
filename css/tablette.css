@@ -3,4 +3,30 @@
       margin: 0 auto;
       width: 80%;
     }
+
+    .fonctionnement, .titre_restaurant{
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 51px;
+    }
+
+    .chef_bloc {
+      flex-wrap: initial;
+    }
+
+    .bloc_img, .bloc_img_2, .bloc_img_3, .bloc_img_4{
+      width: 45%;
+      height: 320px;
+    }
+
+    .bloc_menu .img_3 {
+
+    }
+
+  
+    .bloc_menu {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
 }
