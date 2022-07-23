@@ -4,10 +4,6 @@
     padding: 0;
   }
 
-  .bloc_logo a{
-
-  }
-
   .bloc_header{
     display: flex;
     flex-wrap: wrap;
@@ -60,35 +56,9 @@
     background-color: #f2f2f2;
     margin-top: -35px;
     position: relative;
+      
   }
 
-  .menu, .menu_detaille_nom, .menu_detaille_prix, .menu_slide{
-            animation: displayY ease;
-    -webkit-animation-delay: 1000ms ease;
-            animation-delay: 1000ms ease;
-  }
-
-  @-webkit-keyframes displayY{
-    0% {
-      transform: translateY(20px);
-      opacity: 0;
-    }
-    100%{
-      transform: translateY(0px);
-      opacity: 1;
-    }
-  }
-
-  @keyframes displayY {
-    0% {
-      transform: translateY(20px);
-      opacity: 0;
-    }
-    100%{
-      transform: translateY(0px);
-      opacity: 1;
-    }
-  }
   .titre_menu{
     width: 85%;
     padding: 20px;
@@ -184,9 +154,32 @@
     position: relative;
     -webkit-animation: slide 800ms both;
             animation: slide 800ms both;
+    -webkit-animation: display_menu 800ms both;
+            animation: display_menu 800ms both;
   }
   
+  @-webkit-keyframes display_menu{
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
 
+  @keyframes display_menu {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  
   .menu_detaille_nom{
     font-family: sans-serif;
     font-weight: bold;
