@@ -4,6 +4,13 @@
     padding: 0;
   }
 
+  @media (min-width: 330px) and (max-width: 761px) {
+    
+    .container_1, .container_2{
+      width: 100%;
+      }
+    }
+    
   .bloc_header{
     display: flex;
     flex-wrap: wrap;
@@ -179,7 +186,7 @@
       opacity: 1;
     }
   }
-  
+
   .menu_detaille_nom{
     font-family: sans-serif;
     font-weight: bold;

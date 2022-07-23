@@ -1,0 +1,28 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .container_1{
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    .titre_footer {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 3%;
+        font-weight: 900;
+    }
+
+    .bloc_footer_1 {
+        text-align: center;
+    }
+
+    .icon_footer, .mention_footer, .contact_footer {
+        font-size: 20px;
+    }
+
+    .p_footer {
+        font-size: 25px;
+    }
+
+
+    }
