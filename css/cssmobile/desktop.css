@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+    .container_1, .container_2{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 25%;
+        margin-left: -200px;
+    }
+
+    .bloc_img img {
+        height: 250px;
+    }
+    .entree , .plat , .dessert {
+        width: 33%;
+    }
+
+    .titre_plat h2, .titre_dessert h2 {
+        margin-top: 0;
+    }
+
+    .titre_footer {
+        width: 90%;
+        font-size: 50px;
+        padding-top: 3%;
+        font-weight: 900;
+    }
+
+    .bloc_footer_1 {
+        margin-top: 1%;
+    }
+    
+    .mini_bloc_footer_1, .mini_bloc_footer_2 {
+        width: 90%;
+        
+    }
+
+    .icon_footer {
+        font-size: 25px;
+    }
+
+    .p_footer {
+        font-size: 25px;
+    }
+
+    .mention_footer, .contact_footer {
+        font-size: 20px;
+    }
+}

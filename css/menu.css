@@ -51,6 +51,7 @@
   .bloc_img img{
     width: 100%;
     object-fit: cover;
+    height: 230px;
   }
 
   .bloc_menu{
@@ -69,7 +70,7 @@
   .titre_menu{
     width: 85%;
     padding: 20px;
-    font-family: "Shrikhand" , cursive;
+    font-family: 'Shrikhand', cursive;
     font-size: 28px;
   }
 
@@ -133,7 +134,7 @@
 
   h2{
     font-size: 15px;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     margin-bottom: 3px;
     font-weight: 500;
   }
@@ -199,7 +200,6 @@
     overflow: hidden;
   }  
   .menu_detaille_nom p{
-    font-family: 'Raleway';
     font-size: smaller;
     font-weight: 500;
     margin-top: 5px;
@@ -318,7 +318,7 @@
   .titre_footer{
       width: 90%;
       font-size: 25px;
-      font-family: sans-serif;
+      font-family: 'Shrikhand', sans-serif;
       font-style: italic;
       margin: 0 auto;
       padding-top: 5%;
