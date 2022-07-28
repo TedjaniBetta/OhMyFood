@@ -131,7 +131,7 @@
 
     .localisation{
         display: flex;
-        box-shadow: 0px -2px 10px grey;
+        box-shadow: inset 0px 2px 5px 0px #c4c3c0;
         align-items: center;
         height: 55px;
         justify-content: center;
@@ -172,6 +172,7 @@
         margin-top: 22px;
         font-family: 'Roboto', sans-serif;
         text-align: center;
+        font-weight: 300;
     }
 
     .bloc_p3{
@@ -184,11 +185,18 @@
         background: linear-gradient(#FF79DA, #9356DC);
         border-radius: 80px;
         font-size: 18px;
-        font-family: sans-serif;
+        font-family: 'Roboto';
+        font-weight: 400;
         margin-top: 30px;
         text-align: center;
         padding: 18px;
         box-shadow: 0 0 16px grey;
+    }
+
+    .lineaire-simple:hover {
+      background: linear-gradient(#fa9ddf, #9e70d6);
+      color: white;
+      box-shadow: 0 0 25px grey;
     }
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
@@ -202,7 +210,7 @@
 
     .fonctionnement{
         font-size: 25px;
-        font-family: 'Shrikhand', sans-serif;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 35px;
         padding-left: 20px;
     }
@@ -230,9 +238,9 @@
         box-shadow: 0px 3px 11px #cdc9c9;
     }
 
-    .bloc_nav_1:visited{
-        color: #088c6c;
-        background-color: #FF79DA;
+    .bloc_nav_1:hover, .bloc_nav_2:hover, .bloc_nav_3:hover{
+        color: black;
+        background-color: #f4ebff  ;
 
     }
 
@@ -278,17 +286,17 @@
 
     .titre_restaurant{
         font-size: 30px;
-        font-family: 'Shrikhand', sans-serif;
+        font-family: 'Roboto', sans-serif;
         padding-left: 20px;
         margin-top: 50px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .bloc_img, .bloc_img_2, .bloc_img_3, .bloc_img_4{
         border: 2px solid white;
         width: 90%;
         margin: 0 auto;
-        border-radius: 30px;
+        border-radius: 20px;
         background-color: white;
         box-shadow: 1px 1px 10px grey;
         display: flex;
@@ -304,13 +312,13 @@
         padding: 10px 19px;
         color: #088c6c;
         font-weight: 600;
-        border-radius: 6px;
+        border-radius: 3px;
         position: absolute;
         margin-left: 65%;
         font-size: 14px;
         font-family: sans-serif;
-        top: 30px;
-        right: 30px;
+        top: 18px;
+        right: 20px;
     }
 
 
@@ -320,10 +328,10 @@
     
     .img, .img_2, .img_3, .img_4{
         width: 100%;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         object-fit: cover;
-        height: 235px;
+        height: 180px;
     }
 
     .mini_bloc, .mini_bloc_2, .mini_bloc_3, .mini_bloc_4{
@@ -391,32 +399,22 @@
     /*******************************************************/
     /*******************************************************/
 
-    .container_2{
-
-    }
-
     .bloc_footer{
         background-color: #353535;
         color: white;
     }
 
-    .img_footer{
-       
-    }
-
     .titre_footer{
-        width: 90%;
-        font-size: 25px;
-        font-family: 'Shrikhand', sans-serif;
-        font-style: italic;
-        margin: 0 auto;
-        padding-top: 5%;
-        padding-bottom: 5px;
-        font-weight: 900;
+      width: 90%;
+      font-size: 20px;
+      font-family: 'Shrikhand';
+      font-weight: 100;
+      margin: 0 auto;
+      padding-top: 5%;
     }
 
     .bloc_footer_1{
-        margin-top: 3%;
+        margin-top: 5%;
         text-decoration: none;
         padding-bottom: 50px;
     }
@@ -430,6 +428,11 @@
         margin-top: 15px;
     }
 
+    .mini_bloc_footer_2 i {
+      font-size: 14px;
+      margin-right: 6px;
+    }
+
     .icon_footer{
         margin-right: 10px;
     }
@@ -440,21 +443,15 @@
     }
     .p_footer{
         font-family: "Roboto", sans-serif;
-        
         text-decoration: none;
       
     }
 
     .mention_footer, .contact_footer{
         font-family: "Roboto", sans-serif;
-        font-weight: bold;
         width: 90%;
         margin: 0 auto;
         margin-top: 15px;
-    }
-
-    .contact_footer{
-
     }
 
     ul {

@@ -39,6 +39,10 @@
         width: 45%;
         height: 320px;
       }
+
+      .img, .img_2, .img_3, .img_4 {
+        height: 235px;
+      }
   
       .bloc_img_4{
         margin-bottom: 5%;
@@ -48,11 +52,14 @@
         width: 90%;
         font-size: 50px;
         padding-top: 2%;
-        font-weight: 900;
       }
 
       .bloc_footer_1 {
         font-size: 20px;
         margin-top: 2%;
+      }
+
+      .mini_bloc_footer_2 i {
+        margin-right: 10px;
       }
 }
