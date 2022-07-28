@@ -4,6 +4,10 @@
         margin: 0 auto;
     }
 
+    .bloc_logo {
+        gap: 50%;
+    }
+
     .logo {
         width: 25%;
         margin-left: -200px;
@@ -22,9 +26,8 @@
 
     .titre_footer {
         width: 90%;
-        font-size: 50px;
+        font-size: 30px;
         padding-top: 3%;
-        font-weight: 900;
     }
 
     .bloc_footer_1 {
@@ -36,15 +39,24 @@
         
     }
 
+    .mini_bloc_footer_1 i {
+        font-size: 16px;
+    }
+
+    .mini_bloc_footer_2 i {
+        margin-right: 4px;
+    }
+
     .icon_footer {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .p_footer {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .mention_footer, .contact_footer {
         font-size: 20px;
     }
+
 }

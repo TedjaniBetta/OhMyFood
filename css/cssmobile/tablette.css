@@ -6,9 +6,13 @@
 
     .titre_footer {
         width: 90%;
-        font-size: 40px;
+        font-size: 35px;
         padding-top: 3%;
-        font-weight: 900;
+        
+    }
+
+    .bloc_logo {
+        gap: 20%;
     }
 
     .icon_footer, .mention_footer, .contact_footer {
@@ -16,6 +20,10 @@
     }
 
     .p_footer {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .mini_bloc_footer_2 i{
+        margin-right: 3px;
     }
     }

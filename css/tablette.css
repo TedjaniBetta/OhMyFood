@@ -19,6 +19,10 @@
       height: 320px;
     }
 
+    .img, .img_2, .img_3, .img_4 {
+      height: 235px;
+    }
+
     .bloc_menu {
       display: flex;
       flex-wrap: wrap;
