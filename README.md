@@ -1,4 +1,4 @@
-# Projet-n-3 - Ohmyfood
+# Projet n° 3 - Ohmyfood
 Développer un site proposant le menu de 4 grands restaurants parisiens.
 
 Au sein du Projet n°3 du parcours développeur web chez OpenClassrooms, l'objectif et de créé un site web pour la jeune startup Ohmyfood qui voudrait s'imposer sur le marché de la restauration, l'objectif étant de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
