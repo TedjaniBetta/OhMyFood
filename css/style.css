@@ -238,7 +238,7 @@
         box-shadow: 0px 3px 11px #cdc9c9;
     }
 
-    .bloc_nav_1:hover, .bloc_nav_2:hover, .bloc_nav_3:hover{
+    .bloc_nav_1:hover, .bloc_nav_2:hover, .bloc_nav_3:hover {
         color: black;
         background-color: #f4ebff  ;
 
@@ -263,6 +263,10 @@
         color: #7e7e7e;
         margin: 0 15px 0 0;
         font-size: 20px;
+    }
+
+    .mobile_icon:hover {
+      color: #9356DC;
     }
 
     .p_1, .p_2, .p_3{
