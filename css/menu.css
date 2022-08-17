@@ -77,6 +77,10 @@
     position: relative;
   }
 
+  .heart_plein, .heart_vide, .button_command button {
+    cursor: pointer;
+  }
+
   .heart_vide{
     font-size: 25px;
     position: absolute;
@@ -163,6 +167,7 @@
             animation: slide 800ms both;
     -webkit-animation: display_menu 800ms both;
             animation: display_menu 800ms both;
+    cursor: pointer;
   }
   
   @-webkit-keyframes display_menu{
@@ -204,7 +209,8 @@
   .menu_detaille_nom, .menu_detaille_nom h3, .menu_detaille_nom p {
     font-family: 'Roboto';
     overflow: hidden;
-  }  
+  }
+
   .menu_detaille_nom p{
     font-size: smaller;
     font-weight: 500;
@@ -228,8 +234,9 @@
     padding-right: 15px;
   }
 
+  
   .menu:hover .menu_slide {
-    transition: transform 800ms;
+    transition: all 800ms ease-out;
     animation: slide 1s ease;
     margin-right: 0px;
   }
